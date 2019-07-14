@@ -138,7 +138,7 @@
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="LogitechExtreme3DPro" Key="Joy_12" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_T" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
@@ -163,7 +163,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus50>
 	<SetSpeedMinus25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Grave" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
@@ -171,19 +171,19 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="Keyboard" Key="Key_3" />
+		<Primary Device="Keyboard" Key="Key_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed25>
 	<SetSpeed50>
-		<Primary Device="Keyboard" Key="Key_5" />
+		<Primary Device="Keyboard" Key="Key_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
-		<Primary Device="Keyboard" Key="Key_7" />
+		<Primary Device="Keyboard" Key="Key_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed75>
 	<SetSpeed100>
-		<Primary Device="Keyboard" Key="Key_Equals" />
+		<Primary Device="Keyboard" Key="Key_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed100>
 	<YawAxis_Landing>
@@ -283,7 +283,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="Keyboard" Key="Key_E" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
@@ -304,7 +304,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextTarget>
 	<CyclePreviousTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_X" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
@@ -312,11 +312,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="LogitechExtreme3DPro" Key="Joy_10" />
+		<Primary Device="Keyboard" Key="Key_Apostrophe" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_SemiColon" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
@@ -340,15 +340,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_U" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Y" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_J" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -360,11 +360,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Period" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Comma" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -378,7 +378,7 @@
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_I" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
@@ -462,7 +462,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EngineColourToggle>
 	<NightVisionToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_L" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</NightVisionToggle>
 	<UIFocus>
@@ -471,14 +471,14 @@
 	</UIFocus>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
-		<Primary Device="Keyboard" Key="Key_Apostrophe" />
+		<Primary Device="Keyboard" Key="Key_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
-		<Primary Device="Keyboard" Key="Key_2" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
-	<FocusOnTextEntryField Value="1" />
+	<FocusOnTextEntryField Value="0" />
 	<QuickCommsPanel>
 		<Primary Device="Keyboard" Key="Key_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -488,7 +488,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
-		<Primary Device="Keyboard" Key="Key_4" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
@@ -691,11 +691,11 @@
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="Keyboard" Key="Key_Space" />
+		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Up" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
 	</CamZoomIn>
 	<CamZoomOut>
-		<Primary Device="Keyboard" Key="Key_LeftShift" />
+		<Primary Device="LogitechExtreme3DPro" Key="Joy_POV1Down" />
 		<Secondary Device="Keyboard" Key="Key_X" />
 	</CamZoomOut>
 	<CamTranslateZHold>
